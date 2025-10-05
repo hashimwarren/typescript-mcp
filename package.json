@@ -1,0 +1,22 @@
+{
+  "name": "typescript-mcp",
+  "version": "1.0.0",
+  "description": "MCP server providing context from TypeScript, Zod, Drizzle, Vitest, and Next.js documentation",
+  "type": "module",
+  "bin": {
+    "typescript-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "keywords": ["mcp", "typescript", "zod", "drizzle", "vitest", "nextjs", "documentation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.19.1",
+    "@types/node": "^24.6.2",
+    "typescript": "^5.9.3"
+  }
+}
